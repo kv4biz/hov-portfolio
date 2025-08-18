@@ -5,7 +5,6 @@ import "./globals.css";
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
-  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -16,14 +15,10 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{ children: React.ReactNode }>) {
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body  className={`${inter.variable} antialiased`}>
-        {children}
-      </body>
+      <body className={`${inter.variable} antialiased`}>{children}</body>
     </html>
   );
 }

@@ -1,7 +1,9 @@
+import { Header } from "@/components/header";
+
 export default function Home() {
   return (
-    <div>
-      <h1>car</h1>
+    <div className="min-h-screen w-full max-w-[1660px] mx-auto items-center flex flex-col">
+      <Header />
     </div>
   );
 }
