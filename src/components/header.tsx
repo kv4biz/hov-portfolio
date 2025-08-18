@@ -33,7 +33,7 @@ export function Header() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
             viewport={{ once: true }}
-            className="text-lg lg:text-md font-medium lg:font-normal uppercase tracking-[5px] text-white mb-8"
+            className="text-lg lg:text-md font-medium lg:font-light uppercase tracking-[5px] text-white mb-8"
           >
             Haus of Vermillion
           </motion.h2>
