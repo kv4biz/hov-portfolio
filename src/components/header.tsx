@@ -9,7 +9,7 @@ export function Header() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   return (
-    <section className="relative h-[90vh] md:h-[88vh] w-full">
+    <section className="relative h-[95vh] md:h-[88vh] w-full">
       {/* Background slider */}
       <ImagesSlider images={headerImages} onSlideChange={setCurrentSlide} overlay className="">
         {/* Topbar */}
@@ -33,7 +33,7 @@ export function Header() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
             viewport={{ once: true }}
-            className="text-md uppercase tracking-[5px] text-white mb-8"
+            className="text-lg lg:text-md font-medium lg:font-normal uppercase tracking-[5px] text-white mb-8"
           >
             Haus of Vermillion
           </motion.h2>
@@ -43,7 +43,7 @@ export function Header() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.2, ease: "easeOut" }}
             viewport={{ once: true }}
-            className="text-6xl lg:text-[80px] font-bold text-white drop-shadow-lg leading-tight"
+            className="text-5xl lg:text-[76px] font-bold text-white drop-shadow-lg leading-tight"
           >
             Interior design
             <br />
@@ -52,17 +52,17 @@ export function Header() {
         </div>
 
         {/* bottom display */}
-        <div className="absolute bottom-0 left-0 w-full h-30 lg:w-1/3 z-50 bg-white flex gap-2 items-center">
+        <div className="absolute bottom-0 left-0 w-full h-24 lg:h-30 lg:w-1/3 z-50 bg-white flex gap-2 items-center">
           {/* Featured vertical text */}
           <div className="w-10 h-full bg-[#F3F6FC] flex items-center justify-center">
-            <p className="text-gray-500 font-normal text-xs tracking-[2px] rotate-270 writing-vertical uppercase">Featured</p>
+            <p className="text-[#6E7488] font-normal text-xs tracking-[2px] rotate-270 writing-vertical uppercase">Featured</p>
           </div>
 
           {/* Slide details */}
           <div className="flex flex-col justify-center w-full px-2 md:px-6">
-            <div className="uppercase tracking-[5px] text-sm mb-2">Design:</div>
-            <div className="text-xl font-bold leading-[16px] capitalize">{headerImages[currentSlide].title}</div>
-            <div className="text-sm tracking-widest mt-2">{headerImages[currentSlide].publishedAt}</div>
+            <div className="uppercase tracking-[3px] text-sm mb-2">Design:</div>
+            <div className="text-xl text-[#090B19] font-bold leading-[16px] capitalize">{headerImages[currentSlide].title}</div>
+            <div className="text-sm tracking-[3px] text-[#090B19] mt-2">{headerImages[currentSlide].publishedAt}</div>
           </div>
         </div>
       </ImagesSlider>
