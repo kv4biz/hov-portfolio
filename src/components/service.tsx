@@ -6,8 +6,8 @@ const service = () => {
   return (
     <section className="relative w-full bg-[#F3F6FC] py-12 lg:py-20">
       {/* vertical translucent lines */}
-      <div className="absolute inset-y-0 left-10 w-[1px] bg-black/5 z-40" />
-      <div className="absolute inset-y-0 right-10 w-[1px] bg-black/5 z-40" />
+      <div className="absolute inset-y-0 left-10 w-[1px] bg-black/5 z-20" />
+      <div className="absolute inset-y-0 right-10 w-[1px] bg-black/5 z-20" />
 
       <div className="container mx-auto w-full relative z-50">
         {/* Subtitle & Title */}

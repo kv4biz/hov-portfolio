@@ -35,7 +35,7 @@ export function Header() {
             viewport={{ once: true }}
             className="text-lg lg:text-md font-medium lg:font-light uppercase tracking-[5px] text-white mb-8"
           >
-            Haus of Vermillion
+            Concept by Haus of Vermillion
           </motion.h2>
 
           <motion.h1
