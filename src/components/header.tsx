@@ -9,7 +9,7 @@ export function Header() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   return (
-    <section className="relative h-[95vh] md:h-[88vh] w-full">
+    <section className="relative h-[600px] md:h-[560px] w-full">
       {/* Background slider */}
       <ImagesSlider images={headerImages} onSlideChange={setCurrentSlide} overlay className="">
         {/* Topbar */}

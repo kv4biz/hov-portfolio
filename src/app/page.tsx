@@ -1,6 +1,8 @@
 import { Header } from "@/components/header";
 import Service from "@/components/service";
 import Portfolio from "@/components/portfolio";
+import CTA from "@/components/cta";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -8,6 +10,8 @@ export default function Home() {
       <Header />
       <Service />
       <Portfolio />
+      <CTA />
+      <Footer />
     </div>
   );
 }

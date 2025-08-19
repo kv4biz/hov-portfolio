@@ -37,7 +37,7 @@ const Portfolio = () => {
         <div className="w-full px-10">
           <div className="w-full h-6 bg-[#F3F6FC]" />
         </div>
-        <div className="relative h-[45vh] lg:h-[50vh] w-full lg:px-10 z-20">
+        <div className="relative h-[320px] lg:h-[400px] w-full lg:px-10 z-20">
           <Image
             src="/fwdportfolio8-image-8.jpg"
             alt="Portfolio background"
@@ -79,7 +79,7 @@ const Portfolio = () => {
         {portfolioProjects.map((project, idx) => (
           <div key={project.title} className={`relative w-full lg:w-1/3 mb-4 lg:mb-10 z-40 ${idx % 2 === 0 ? "lg:mt-10" : ""}`}>
             {/* Clickable Image with overlay */}
-            <div className="relative h-64 lg:h-[60vh] w-full overflow-hidden cursor-pointer" onClick={() => openViewer(project)}>
+            <div className="relative h-80 md:h-88 lg:h-100 w-full overflow-hidden cursor-pointer" onClick={() => openViewer(project)}>
               <Image src={project.images[0]} alt={project.title} fill className="object-cover" />
               <div className="absolute inset-0 text-white bg-black/45 hover:bg-black/15 flex flex-col justify-between items-center p-4">
                 <span className="text-xl font-bold tracking-[3px] capitalize">{project.title}</span>
@@ -93,11 +93,11 @@ const Portfolio = () => {
       {/* Project Viewer Overlay */}
       {selectedProject && (
         <div className="fixed inset-0 z-50 bg-black/95 flex items-center justify-center py-20 lg:py-10">
-          <button className="absolute top-6 right-6 text-white text-xl z-50" onClick={closeViewer}>
+          <button className="absolute top-6 right-6 text-white text-3xl lg:text-xl  z-50" onClick={closeViewer}>
             ✕
           </button>
 
-          <div className="w-full h-full lg:max-w-5xl mx-auto flex items-start lg:items-center justify-center gap-0">
+          <div className="w-full h-full lg:max-w-5xl mx-auto flex items-center justify-center gap-0">
             <Carousel className="w-full h-full">
               <CarouselContent className="h-full w-full">
                 {selectedProject.images.map((image, index) => (
