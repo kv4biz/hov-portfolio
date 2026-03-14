@@ -16,7 +16,7 @@ export function Header() {
         <div className="absolute top-0 left-0 w-full h-16 lg:w-1/3 flex z-50">
           <div className="w-10 h-full bg-transparent hidden lg:block" />
           <div className="flex items-center justify-center lg:justify-start bg-white w-full h-full px-10">
-            <h1 className="text-xl font-bold">Logo</h1>
+            <h1 className="text-xl font-bold">FJ Interiors</h1>
           </div>
         </div>
 
@@ -35,7 +35,7 @@ export function Header() {
             viewport={{ once: true }}
             className="text-lg lg:text-md font-medium lg:font-light uppercase tracking-[5px] text-white mb-8"
           >
-            Concept by Haus of Vermillion
+            Concept by FJ Interiors
           </motion.h2>
 
           <motion.h1

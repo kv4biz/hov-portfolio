@@ -1,6 +1,6 @@
 export const portfolioProjects = [
   {
-    title: "Project One",
+    title: "Project Monaco - Monaco",
     publishedAt: "18.08.2025",
     images: [
       "/fwdportfolio1-image-1.jpg",
@@ -14,7 +14,7 @@ export const portfolioProjects = [
     ],
   },
   {
-    title: "Project Two",
+    title: "Project Paris - France  Hampstead - London",
     publishedAt: "18.08.2025",
     images: [
       "/fwdportfolio2-image-01.jpg",
@@ -36,7 +36,7 @@ export const portfolioProjects = [
     ],
   },
   {
-    title: "Project Three",
+    title: "Project Dury - london",
     publishedAt: "18.08.2025",
     images: [
       "/fwdportfolio3-image-01.jpg",
@@ -57,7 +57,7 @@ export const portfolioProjects = [
     ],
   },
   {
-    title: "Project Four",
+    title: "Project Polo - Dubai",
     publishedAt: "18.08.2025",
     images: [
       "/fwdportfolio4-image-001.jpg",
@@ -78,7 +78,7 @@ export const portfolioProjects = [
     ],
   },
   {
-    title: "Project Five",
+    title: "Project Wrotham - London",
     publishedAt: "18.08.2025",
     images: [
       "/fwdportfolio5-image-1.jpg",
@@ -92,7 +92,7 @@ export const portfolioProjects = [
     ],
   },
   {
-    title: "Project Six",
+    title: "Project Montevetro - London",
     publishedAt: "18.08.2025",
     images: [
       "/fwdportfolio6-image-1.jpg",
@@ -105,7 +105,7 @@ export const portfolioProjects = [
     ],
   },
   {
-    title: "Project Seven",
+    title: "Project Camlet - London",
     publishedAt: "18.08.2025",
     images: [
       "/fwdportfolio7-image-1.jpg",
@@ -123,7 +123,7 @@ export const portfolioProjects = [
     ],
   },
   {
-    title: "Project Eight",
+    title: "Project Ebury - London",
     publishedAt: "18.08.2025",
     images: [
       "/fwdportfolio8-image-1.jpg",
@@ -137,7 +137,7 @@ export const portfolioProjects = [
     ],
   },
   {
-    title: "Project Nine",
+    title: "Project Al Barari 1 - Dubai",
     publishedAt: "18.08.2025",
     images: [
       "/fwdportfolio9-image-1.jpg",
@@ -151,8 +151,8 @@ export const portfolioProjects = [
     ],
   },
   {
-    title: "Project Ten",
-    publishedAt: "18.08.2025",
+    title: "Project Al Barari 2 - Dubai",
+    publishedAt: "18.02.2025",
     images: [
       "/fwdportfolio10-image-1.jpg",
       "/fwdportfolio10-image-2.jpg",
@@ -163,5 +163,24 @@ export const portfolioProjects = [
       "/fwdportfolio10-image-7.jpg",
       "/fwdportfolio10-image-8.jpg",
     ],
+  },
+  {
+    title: "Marine Portfolio",
+    publishedAt: "13.03.2026",
+    images: [
+      "/fwdportfolio11-image-1.jpeg",
+      "/fwdportfolio11-image-2.jpeg",
+      "/fwdportfolio11-image-3.jpeg",
+      "/fwdportfolio11-image-4.jpeg",
+      "/fwdportfolio11-image-5.jpeg",
+      "/fwdportfolio11-image-6.jpeg",
+      "/fwdportfolio11-image-7.jpeg",
+      "/fwdportfolio11-image-8.jpeg",
+    ],
+  },
+  {
+    title: "Aviation Portfolio",
+    publishedAt: "14.03.2026",
+    images: ["/fwdportfolio12-image-1.jpeg", "/fwdportfolio12-image-2.jpeg", "/fwdportfolio12-image-3.jpeg", "/fwdportfolio12-image-4.jpeg"],
   },
 ];

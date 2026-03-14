@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Haus of Vermillion",
+  title: "FJ Interiors",
   description: "Interior Décor Portfolio",
   icons: {
     icon: "/favicon.ico",
