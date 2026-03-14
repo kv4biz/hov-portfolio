@@ -1,19 +1,19 @@
 export const headerImages = [
   {
     src: "/fwdportfolio1-image-1.jpg",
-    title: "V.A",
+    title: "Project Monaco - Monaco",
     publishedAt: "18-08-2025",
     focus: "object-center",
   },
   {
     src: "/fwdportfolio5-image-1.jpg",
-    title: "Rome",
+    title: "Project Wrotham - London",
     publishedAt: "18-08-2025",
     focus: "object-bottom-left",
   },
   {
     src: "/fwdportfolio6-image-1.jpg",
-    title: "Montevetro",
+    title: "Project Montevetro - London",
     publishedAt: "18-08-2025",
     focus: "object-top-right",
   },
