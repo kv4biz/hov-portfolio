@@ -14,7 +14,7 @@ export const portfolioProjects = [
     ],
   },
   {
-    title: "Project Paris - France  Hampstead - London",
+    title: "Project Hampstead - London",
     publishedAt: "18.08.2025",
     images: [
       "/fwdportfolio2-image-01.jpg",
